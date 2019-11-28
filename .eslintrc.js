@@ -3,14 +3,11 @@ module.exports = {
     env: {
         node: true
     },
-    //extends: "eslint:recommended",
     extends: ["plugin:vue/essential", "@vue/prettier", "@vue/typescript"],
     rules: {
-        //'indent': ['off', 2],
-        //"no-console": process.env.NODE_ENV === "production" ? "error" : "off",
-        //"no-debugger": process.env.NODE_ENV === "production" ? "error" : "off"
+        'indent': ['off', 2],
     },
     parserOptions: {
-        //parser: "@typescript-eslint/parser"
+        parser: "@typescript-eslint/parser"
     }
 };
