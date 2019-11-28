@@ -3,7 +3,7 @@ module.exports = {
     env: {
         node: true
     },
-    extends: ["plugin:vue/essential", "@vue/prettier", "@vue/typescript"],
+    extends: "eslint:recommended",
     rules: {
         'indent': ['off', 2],
     },
